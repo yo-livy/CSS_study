@@ -1,21 +1,48 @@
 /* Selector {
     Property: value;
 } */
+* {
+    text-align: center;
+}
 body {
     background-image: url(background_image.jpg);
     background-size: cover;
 }
-h2 {
+h2 p:hover {
     color: red;
-    background-color: black;
+    background-color: azure;
     text-align: center;
-    border: 5px dashed purple;
+    border: 5px solid rgba(185, 20, 215, 0.5);
+    cursor: pointer;
 }
 
 p {
-    color: pink;
+    color: green;
+    text-decoration: underline;
+    font-size: 120%;
+    text-transform: uppercase;
 }
 
 li {
     list-style: none;
+    display: inline-block;
+}
+
+.webtext:last-child {
+    color: blueviolet;
+}
+
+.active {
+    border: 3px solid papayawhip;
+}
+#background {
+    background-color: rgba(0,0,255,0.2);
+}
+
+img {
+    float: left;
+}
+
+footer {
+    clear: both;
 }
